@@ -1,0 +1,4 @@
+#!/bin/bash
+git clone -b wasp https://github.com/iotaledger/goshimmer.git
+cp -r ./goshimmer/dapps/waspconn/ ./waspconn
+rm -r -f ./goshimmer/
